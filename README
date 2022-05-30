@@ -48,6 +48,6 @@ Scenarios covered
  
 Finding href link and getting the status code of 2XX
 Opening the Mytheresa site and logging with the dummy user created from the maildrop
-Code for Open Pull request as CSV file filtered with Author, PR name, and Created data is created
+Code for Open Pull request as CSV file filtered with Author, PR name, and Created date is created
  
 Note: CSV file is written into Pull Request Folder
