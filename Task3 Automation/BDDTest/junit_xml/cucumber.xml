@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.936693">
+    <testcase classname="Testing Mytheresa Website" name="User loading the Mytheresa website URL and verifies the error code" time="2.936693">
+        <system-out><![CDATA[Then user is getting pull request as CSV....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
