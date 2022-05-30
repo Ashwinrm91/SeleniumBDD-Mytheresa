@@ -1,0 +1,53 @@
+Task 1
+It answers the basic question which was given in task 1
+ 
+Task 2
+The test plan for Mytheresa is available
+ 
+Task 3
+Why this framework and Features of Framework:
+ 
+The framework is created in such a way where feature line in the feature file is mapped to the Java methods.
+ 
+This framework can be understandable even by a non-technical person. This can be extended to UI automation, Fetch DB data, and provide excellent reports.
+ 
+Each feature file is annotated with Cucumber tags we run whichever test we want just by placing the tag in the runner class
+ 
+***************************************
+How to run the framework?
+ 
+Clone the project from Git Hub --> Import it to any IDE --> Go to Runner Package src/main/java -- TestRunner.java --> Right-click then Run as Junit
+ 
+****************************************
+Framework structure 
+ 
+Runner package
+Src/main/java - Where the runner class is stored we can give the tags and path of the feature file which we want to run
+ 
+Step Def Package
+Src/main/java - Where the Use case methods are written for Href links, login, and Open Pull request as CSV
+ 
+Utils
+ 
+Src/main/Utils - Where Class for reading a property is created which is extended to a different class
+ 
+Feature file
+ 
+Src/test/java/Feature - Where feature files are stored for Mytheresa use cases
+ 
+SRC
+ 
+The property file is stored having a common URL
+ 
+Test output - Basic extent report
+ 
+Pom.xml - Where all maven dependencies are stored
+ 
+****************************************
+Scenarios covered
+ 
+Finding href link and getting the status code of 2XX
+Opening the Mytheresa site and logging with the dummy user created from the maildrop
+Code for Open Pull request as CSV file filtered with Author, PR name, and Created data is created
+ 
+Note: CSV file is written into Pull Request Folder
